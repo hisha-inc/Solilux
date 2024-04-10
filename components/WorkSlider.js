@@ -73,9 +73,9 @@ const WorkSlider = () => {
   return (
     <Swiper 
       spaceBetween={10}      
-      // pagination={{
-      //   clickable: true
-      // }}
+      pagination={{
+        clickable: true
+      }}
       modules={[ Pagination ]}
       className="h-[280px] sm:h-[480px]"
     >
