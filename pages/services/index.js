@@ -24,21 +24,31 @@ const Services = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className='h2 xl:mt-8'
+              className='h2 xl:mt-8 mx-auto'
             >
               Наши услуги<span className='text-accent'>.</span>
             </motion.h2>
+
             <motion.p 
               variants={fadeIn('up', 0.4)}
               initial="hidden"
               animate="show"
               exit="hidden"
-              className='mb-4 max-w-[400px] mx-auto lg:mx-0'
-            >
+              className='mb-4 max-w-[400px] mx-auto'
+            >              
               Наше сообщество предлагает полный спектр услуг по созданию брендов.<br/><br/>
-              Создание сайтов и телеграмм ботов не обходиться без хороших заголовков и красивых иллюстраций, поэтому наши специалисты всегда с радостью помогут Вам найти отличное решение.<br/><br/>
-              Мы подберём для Вас лучший вариант под любой бюджет.
             </motion.p>
+            <div className='hidden md:flex xl:max-w-xl xl:max-w-none'>
+              <motion.p 
+                variants={fadeIn('up', 0.4)}
+                initial="hidden"
+                animate="show"
+                exit="hidden"
+                className='mb-4 max-w-[400px] mx-auto'
+              >
+                Создание сайтов и телеграмм ботов не обходиться без хороших заголовков и красивых иллюстраций, поэтому наши специалисты всегда с радостью помогут Вам найти отличное решение.
+              </motion.p>
+            </div>
           </div>
           <motion.div 
             variants={fadeIn('down', 0.6)}

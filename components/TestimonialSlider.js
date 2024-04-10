@@ -44,9 +44,9 @@ const TestimonialSlider = () => {
   return (
     <Swiper 
       navigation={true}      
-      pagination={{
-        clickable: true
-      }}
+      // pagination={{
+      //   clickable: true,
+      // }}
       modules={[ Navigation, Pagination ]}
       className="h-[280px] sm:h-[480px]"
     >

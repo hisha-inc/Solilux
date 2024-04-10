@@ -28,19 +28,29 @@ const Work = () => {
             >
               Наши <span className='text-accent'>работы.</span>
             </motion.h2>
+            <div className='hidden md:flex xl:max-w-xl xl:max-w-none'>
+              <motion.p 
+                variants={fadeIn('up', 0.4)}
+                initial="hidden"
+                animate="show"
+                exit="hidden"
+                className='mb-4 max-w-[400px] mx-auto lg:mx-0'
+              >              
+                Мы создаём интуитивно понятные и функциональные сайты, которые помогут Вам выделиться и подчеркнуть индивидуальный стиль.<br/><br/>
+                Контент, который Заставит Мир Остановиться.<br/>
+                Цепляющие текста - истории, которые хочется читать. Вкупе с иллюстрациями, слова перенесут ваших клиентов в мир вашего бренда.<br/><br/>             
+              </motion.p>
+            </div>
             <motion.p 
-              variants={fadeIn('up', 0.4)}
-              initial="hidden"
-              animate="show"
-              exit="hidden"
-              className='mb-4 max-w-[400px] mx-auto lg:mx-0'
-            >
-              Мы создаём интуитивно понятные и функциональные сайты, которые помогут Вам выделиться и подчеркнуть индивидуальный стиль.<br/><br/>
-              <span className='text-accent'>Контент,</span> который Заставит Мир Остановиться.<br/>
-              Цепляющие текста - истории, которые хочется читать. Вкупе с иллюстрациями, слова перенесут ваших клиентов в мир вашего бренда.<br/><br/>
-              Каждый <span className='text-accent'>штрих,</span> - это шаг к уникальности, <br/>каждый <span className='text-accent'>цвет</span> - это слово в рассказе о вашем бизнесе.
-              
-            </motion.p>
+                variants={fadeIn('up', 0.4)}
+                initial="hidden"
+                animate="show"
+                exit="hidden"
+                className='mb-4 max-w-[400px] mx-auto lg:mx-0'
+              >
+                Каждый штрих, - это шаг к уникальности, <br/>каждый цвет - это слово в рассказе о вашем бизнесе.
+                
+              </motion.p>
           </div>
           <motion.div 
             variants={fadeIn('down', 0.6)}
