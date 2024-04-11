@@ -44,7 +44,7 @@ const serviceData = [
   {
     icon: <RxReader />,
     title: 'Copywriting',
-    description: 'Наполнение Ваших будущих или текущих продуктов информацией.',
+    description: 'Наполнение ваших будущих или текущих продуктов информацией.',
   },
 ];
 
