@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
         <motion.div key={router.route} className='h-full'>
           {/* add favicon */}
           <Head>
-            {/* <title>Solilux</title> */}
+            <title>Solilux</title>
 
             {/*  */}
             <meta name='description' content='Solilux - ваш надёжный партнер в создании веб-сайтов, телеграмм-ботов, арт-работ и текстового контента.'/>
