@@ -12,10 +12,13 @@ import Head from "next/head";
 //frame motion
 import {AnimatePresence, motion} from 'framer-motion'
 
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   return (  
     <Layout> 
+      <SpeedInsights/>
       <AnimatePresence mode='wait'>
         <motion.div key={router.route} className='h-full'>
           {/* add favicon */}
