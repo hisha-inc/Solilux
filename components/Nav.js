@@ -9,6 +9,7 @@ import {
 
 import { TbBrandTelegram } from "react-icons/tb";
 import { TbBrandWhatsapp } from "react-icons/tb";
+import { IoIosPricetags } from "react-icons/io";
 
 
 // nav data
@@ -23,6 +24,13 @@ export const navData = [
     icon: <HiChatBubbleBottomCenterText />,
     target: "",
   },
+  {
+    name: 'Price',
+    path: '/price-list.png',
+    icon: <IoIosPricetags/>,
+    target: "_blank",    
+  },
+  // social
   {
     name: 'WhatsApp',
     path: 'whatsapp://send?phone=79959836663',

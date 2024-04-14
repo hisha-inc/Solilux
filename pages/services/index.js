@@ -4,7 +4,6 @@ import Bulb from '../../components/Bulb'
 import Circles from '../../components/Circles'
 import TopLeftImg from '../../components/TopLeftImg'
 
-
 // framer motion
 import {motion} from 'framer-motion'
 import {fadeIn} from '../../variants'
@@ -36,8 +35,8 @@ const Services = () => {
               exit="hidden"
               className='mb-4 max-w-[400px] mx-auto'
             >              
-              Наше сообщество предлагает полный спектр услуг по созданию брендов.<br/><br/>
-            </motion.p>
+              Наше сообщество предлагает полный спектр услуг по созданию брендов.<br/><br/>              
+            </motion.p>            
             <div className='hidden md:flex xl:max-w-xl xl:max-w-none'>
               <motion.p 
                 variants={fadeIn('up', 0.4)}
