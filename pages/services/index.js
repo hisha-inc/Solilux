@@ -35,19 +35,9 @@ const Services = () => {
               exit="hidden"
               className='mb-4 max-w-[400px] mx-auto'
             >              
-              Наше сообщество предлагает полный спектр услуг по созданию брендов.<br/><br/>              
-            </motion.p>            
-            <div className='hidden md:flex xl:max-w-xl xl:max-w-none'>
-              <motion.p 
-                variants={fadeIn('up', 0.4)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-                className='mb-4 max-w-[400px] mx-auto'
-              >
-                Создание сайтов и телеграмм ботов не обходится без хороших заголовков и красивых иллюстраций, поэтому наши специалисты всегда с радостью помогут вам найти отличное решение.
-              </motion.p>
-            </div>
+              Наше сообщество предлагает полный спектр услуг по созданию и развитию бренда.<br/><br/>
+              Ознакомиться с актуальными ценами вы можете <a href='/price-list.png'><span className='text-accent'>тут</span></a>.
+            </motion.p>                    
           </div>
           <motion.div 
             variants={fadeIn('down', 0.6)}
