@@ -39,7 +39,7 @@ export const navData = [
   },
   {
     name: 'Telegram',
-    path: 'https://t.me/HiShaINC',
+    path: 'https://t.me/solilux',
     icon: <TbBrandTelegram/>,
     target: "_blank", 
   },
