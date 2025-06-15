@@ -31,12 +31,12 @@ export const navData = [
     target: "_blank",    
   },
   // social
-  {
+  /*{
     name: 'WhatsApp',
     path: 'whatsapp://send?phone=79959836663',
     icon: <TbBrandWhatsapp/>,
     target: "_blank",    
-  },
+  },*/
   {
     name: 'Telegram',
     path: 'https://t.me/solilux',
